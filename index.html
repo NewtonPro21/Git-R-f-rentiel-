@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULAIRE D'INSCRIPTION</title>
+    <style>
+        body{
+            background-color: #26a69a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .from-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+
+        }
+        h2{
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"]{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #26a69a;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .login-link{
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .login-link a {
+            color: #26a69a;
+            text-decoration: none;
+
+        }
+        </style>
+        <head>
+            <body>
+                <div class="from-container">
+                    <h2>INSCRIPTION</h2>
+                    <form>  
+                        <label for="Nom">Nom</label>
+                        <input type="text" id="Nom" name="Nom" required>
+
+                        <label for="Prenom">Prenom</label>
+                        <input type="text" id="Prenom" surname="Prenom" required>
+                        
+                        <label for="email">Adresse Mail</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="password">Mot de Passe</label>
+                        <input type="password" name="password" id="password" required>
+
+                        <input type="submit" value="S'inscrire">
+                    </form>
+                <div class="login-link">Avez-vous deja un compte? <a href="#">Se connecter</a>
+                    </div>
+            </body>
+        </head>
+</body>
+</html>
